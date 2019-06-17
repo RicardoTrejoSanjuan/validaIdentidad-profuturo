@@ -1,0 +1,29 @@
+{
+    "name": "validaIdentidad-profuturo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/ricardotrejo/validaIdentidad-profuturo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/ricardotrejo/validaIdentidad-profuturo/issues"
+    },
+    "homepage": "https://gitlab.com/ricardotrejo/validaIdentidad-profuturo#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "libxmljs": "^0.19.5",
+        "multer": "^1.4.1",
+        "nodemon": "^1.19.1",
+        "pg": "^7.11.0",
+        "request": "^2.88.0",
+        "soap": "^0.27.1"
+    }
+}
